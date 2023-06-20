@@ -1,0 +1,13 @@
+Evaluate the following AI generated message and original intention. 
+
+[AI GENERATED MESSAGE]
+{{$aiGeneratedMessage}}
+[/AI GENERATED MESSAGE]
+
+[ORIGINAL INTENTION]
+{{$input}}
+[/ORIGINAL INTENTION]
+
+If the AI generated message is not semantically valid given the original intention, return false. If the AI generated message is semantically valid, return true.
+
+Your return values should be formatted as JSON: {"result":true|false, "reason":"brief reason why true or false was chosen", "suggestion": "an optional suggestion that would help a human modify the prompt that was used to create the AI generated message initially. If there is no suggestion this can be left blank."}
